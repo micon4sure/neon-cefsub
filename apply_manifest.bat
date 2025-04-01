@@ -1,0 +1,1 @@
+mt.exe -manifest D:\0_WORKBENCH\UNREAL\NEON_starter\Plugins\NEON\Source\ThirdParty\CEF\neon-cefsub\NEON.manifest -outputresource:D:\0_WORKBENCH\UNREAL\NEON_starter\Plugins\NEON\Source\ThirdParty\CEF\neon-cefsub\x64\Release\NEONCEFsub.exe;#1

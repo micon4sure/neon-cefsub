@@ -1,2 +1,3 @@
-*.pdb
-NEONCEFsub.exe
+.vs
+x64
+NEONCEFsub
