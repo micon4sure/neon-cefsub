@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build"
+  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -79,13 +80,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);NOMINMAX;CEF_USE_SANDBOX=0;WIN32_LEAN_AND_MEAN</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\0_WORKBENCH\UNREAL\NEON_dev\Plugins\NEON\Source\ThirdParty\CEF</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\0_WORKBENCH\UNREAL\NEON_starter\Plugins\NEON\Source\ThirdParty\CEF</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\0_WORKBENCH\UNREAL\NEON_dev\Plugins\NEON\Source\ThirdParty\CEF\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\0_WORKBENCH\UNREAL\NEON_starter\Plugins\NEON\Source\ThirdParty\CEF\lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -96,7 +97,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);NOMINMAX;CEF_USE_SANDBOX=0;WIN32_LEAN_AND_MEAN</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\0_WORKBENCH\UNREAL\NEON_dev\Plugins\NEON\Source\ThirdParty\CEF</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\0_WORKBENCH\UNREAL\NEON_starter\Plugins\NEON\Source\ThirdParty\CEF</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -104,7 +105,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\0_WORKBENCH\UNREAL\NEON_dev\Plugins\NEON\Source\ThirdParty\CEF\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\0_WORKBENCH\UNREAL\NEON_starter\Plugins\NEON\Source\ThirdParty\CEF\lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -113,13 +114,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);NOMINMAX;CEF_USE_SANDBOX=0;WIN32_LEAN_AND_MEAN</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\0_WORKBENCH\UNREAL\NEON_dev\Plugins\NEON\Source\ThirdParty\CEF</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\0_WORKBENCH\UNREAL\NEON_starter\Plugins\NEON\Source\ThirdParty\CEF</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\0_WORKBENCH\UNREAL\NEON_dev\Plugins\NEON\Source\ThirdParty\CEF\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\0_WORKBENCH\UNREAL\NEON_starter\Plugins\NEON\Source\ThirdParty\CEF\lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -130,7 +131,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);NOMINMAX;CEF_USE_SANDBOX=0;WIN32_LEAN_AND_MEAN</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\0_WORKBENCH\UNREAL\NEON_dev\Plugins\NEON\Source\ThirdParty\CEF</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\0_WORKBENCH\UNREAL\NEON_starter\Plugins\NEON\Source\ThirdParty\CEF</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -139,8 +140,8 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);libcef.lib;libcef_dll_wrapper.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>D:\0_WORKBENCH\UNREAL\NEON_dev\Plugins\NEON\Source\ThirdParty\CEF\lib</AdditionalLibraryDirectories>
-      <AdditionalManifestDependencies>D:\0_WORKBENCH\UNREAL\NEON_dev\Plugins\NEON\CEF\NEONCEFsub\NEON.manifest</AdditionalManifestDependencies>
+      <AdditionalLibraryDirectories>D:\0_WORKBENCH\UNREAL\NEON_starter\Plugins\NEON\Source\ThirdParty\CEF\lib</AdditionalLibraryDirectories>
+      <AdditionalManifestDependencies>D:\0_WORKBENCH\UNREAL\NEON_starter\Plugins\NEON\CEF\NEONCEFsub\NEON.manifest</AdditionalManifestDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
